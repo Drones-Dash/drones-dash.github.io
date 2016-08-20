@@ -56,7 +56,7 @@ $(document).ready(function() {
 			if (scroll >= 20) {
 				$('section.navigation').addClass('fixed');
 				$('header').css({
-					"border-bottom": "solid 1px rgb(255, 255, 255)",
+					"border-bottom": "none",
 					"padding": "35px 0"
 				});
 				$('header .member-actions').css({
