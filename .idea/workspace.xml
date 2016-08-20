@@ -1,7 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9221ead9-c779-4cb8-bf50-f5653e28b4c3" name="Default" comment="" />
+    <list default="true" id="9221ead9-c779-4cb8-bf50-f5653e28b4c3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/animate.css/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/animate.css/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/animate.css/animate-config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/animate.css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/animate.css/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/animate.css/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/classie/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/classie/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/classie/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/classie/classie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/jquery-waypoints/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/jquery-waypoints/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/jquery-waypoints/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/jquery-waypoints/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/jquery-waypoints/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/retina.js/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/retina.js/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/retina.js/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/retina.js/dist/retina.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/bower_components/retina.js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/etline-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/normalize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/queries.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/Read Me.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/et-line.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/fonts/et-line.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/fonts/et-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/fonts/et-line.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/fonts/et-line.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/lte-ie7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line-font/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/et-line.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/flexslider-icon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/flexslider-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/flexslider-icon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/flexslider-icon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/130.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/avatar@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/ayush.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/bg_play_pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/blog-img-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/blog-img-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/blog-img-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/chase.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/devices.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/devices@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/fancybox_loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/fancybox_sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/hero-min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/hero.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/ipad-device.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/iphone-device.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/iphone6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/john.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/logo-large.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/macbook-pro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/macbook-pro@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/mani.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/polygonal-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/sedna-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/sedna-logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/shivum.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/sketch-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/sketch-logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/img/testimonials-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/js/jquery.fancybox.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/js/jquery.flexslider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/js/min/scripts-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/js/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/js/vendor/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/js/vendor/jquery-1.11.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/js/vendor/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/sass/ie.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/sass/partials/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/sass/partials/_colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/sass/partials/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/sass/partials/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/sass/print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/sass/styles.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="drones-dash.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,9 +140,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="290">
+              <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+              <folding>
+                <marker date="1471681618000" expanded="true" signature="1587:1741" placeholder="..." />
+                <marker date="1471681618000" expanded="true" signature="1681:1709" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,18 +294,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471674459579</updated>
-      <workItem from="1471674461009" duration="5037000" />
+      <workItem from="1471674461009" duration="5187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5037000" />
+    <option name="totallyTimeSpent" value="5187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1343" height="873" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -302,9 +421,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="290">
+          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+          <folding>
+            <marker date="1471681618000" expanded="true" signature="1587:1741" placeholder="..." />
+            <marker date="1471681618000" expanded="true" signature="1681:1709" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
