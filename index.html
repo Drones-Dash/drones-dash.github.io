@@ -235,11 +235,6 @@
         <h3>News</h3>
         <div class="row" style="height: 180px">
             <div class="col-md-6">
-                <a class="twitter-timeline"  href="https://twitter.com/search?q=%40DronesDash" data-widget-id="767163542847918080">Tweets about @DronesDash</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-            </div>
-            <div class="col-md-6">
                 <section class="sign-up text-center" style="padding: 50px" id="download">
 
                     <div class="row">
@@ -256,6 +251,11 @@
                     </div>
                 </section>
             </div>
+            <div class="col-md-6" id="twitter-news">
+                <a class="twitter-timeline"  href="https://twitter.com/search?q=%40DronesDash" data-widget-id="767163542847918080">Tweets about @DronesDash</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+            </div>
         </div>
     </div>
 </section>
@@ -269,9 +269,12 @@
                     <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter your email" required="">
                 </div>
                 <div class="form-input-group">
-                    <i class="fa fa-lock"></i><input type="text" class="" placeholder="Enter your name" required="">
+                    <i class="fa fa-sign-in"></i><input type="text" class="" placeholder="Enter your name" required="">
                 </div>
-                <button type="submit" class="btn-fill sign-up-btn">Sign up for free</button>
+                <div class="form-input-group" style="height:200px !important; text-wrap: normal; padding-top: 15px !important;">
+                    <i class="fa fa-file-text" style="top: 15%"></i><textarea type="text" class="" placeholder="Enter your message" required="" style="resize: none"></textarea>
+                </div>
+                <button type="submit" class="btn-fill sign-up-btn">Submit</button>
             </form>
         </div>
     </div>
