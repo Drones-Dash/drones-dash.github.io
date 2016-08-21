@@ -531,7 +531,7 @@ Features-stack
 /* ==========================================================================
 .features-extra
 ========================================================================== */
-.features-extra {
+.features-extra, .sign-up{
   position: relative;
   z-index: 3; }
   .features-extra .btn {
