@@ -14,9 +14,9 @@ Typography
   
 }
 
-@media only screen and (width: 400px){
+@media only screen and (max-width: 400px){
   .twitter-timeline {
-    visibility: hidden !important
+    display: none !important;
   }
 }
 
