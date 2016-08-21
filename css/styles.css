@@ -84,10 +84,10 @@ h5 {
 .btn-margin-right {
   margin-right: 20px; }
 
-section.features-extra {
+section.features-extra,  section.sign-up {
   background: #fff; }
 
-section.features, section.blog-intro, section.blog, section.sign-up, section.intro {
+section.features, section.blog-intro, section.blog, section.intro {
   background: #F3F4F8; }
 
 /* ==========================================================================

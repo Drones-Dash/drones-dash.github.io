@@ -54,6 +54,7 @@
                             <li><a href="#assets">About</a></li>
                             <li><a href="#features">Features</a></li>
                             <li><a href="#team">Team</a></li>
+                            <li><a href="#news">News</a></li>
                             <li><a href="#download">Contact Us</a></li>
                             <li><a href="#">Careers <i class="fa fa-external-link"></i></a></li>
                         </ul>
@@ -72,9 +73,28 @@
             <div class="col-md-10 col-md-offset-1">
 
                 <div class="hero-content text-center">
-                    <h1>Authenticated Drone Delivery</h1>
-                    <p class="intro">Introducing Drones-Dash. A drone company developing
-                        authenticated uav delivery solutions</p>
+                    <h1><span id="hero-title-adj">Authenticated</span> Drone Delivery</h1>
+                    <script>
+                        WORDS = ["Authenticated", "Faster", "Autonomous", "Secure", "Accurate", "Smarter", "Safer"];
+                        queue = [];
+
+                        setInterval(function() {
+                            index = -1
+                            while (index == -1 || queue.indexOf(WORDS[index]) != -1)
+                                index = Math.floor(Math.random() * WORDS.length);
+                            queue.push(WORDS[index]);
+
+                            $("#hero-title-adj").fadeOut(function() {
+                                $(this).text(WORDS[index]).fadeIn();
+                            });
+
+                            if (queue.length == 4)
+                                    queue.splice(0, 1)
+
+                        }, 4000)
+                    </script>
+
+                    <p class="intro">Introducing Drones-Dash, a drone technology company offering sustainable drone solutions.</p>
                     <a href="#download" class="btn btn-fill btn-large btn-margin-right">Partnerships</a> <a href="#assets"
                                                                                                     class="btn btn-accent btn-large">Learn
                     more</a>
@@ -83,42 +103,6 @@
         </div>
     </div>
     <div class="down-arrow floating-arrow"><a href="#assets"><i class="fa fa-angle-down"></i></a></div>
-</section>
-<section class="intro section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 intro-feature">
-                <div class="intro-icon">
-                    <span data-icon="&#xe039;" class="icon"></span>
-                </div>
-                <div class="intro-content">
-                    <h5>Easily Customised</h5>
-                    <p>Easily customise Sedna to suit your start up, portfolio or product. Take advantage of the layered
-                        Sketch file and bring your product to life.</p>
-                </div>
-            </div>
-            <div class="col-md-4 intro-feature">
-                <div class="intro-icon">
-                    <span data-icon="&#xe046;" class="icon"></span>
-                </div>
-                <div class="intro-content">
-                    <h5>Modern Design</h5>
-                    <p>Designed with modern trends and techniques in mind, Sedna will help your product stand out in an
-                        already saturated market.</p>
-                </div>
-            </div>
-            <div class="col-md-4 intro-feature">
-                <div class="intro-icon">
-                    <span data-icon="&#xe020;" class="icon"></span>
-                </div>
-                <div class="intro-content last">
-                    <h5>Responsive Development</h5>
-                    <p>Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will
-                        look smashing on every device under the sun.</p>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 <section class="features-extra section-padding" id="assets">
     <div class="container">
@@ -145,8 +129,6 @@
             <div class="col-md-5 col-md-offset-7">
                 <div class="feature-list">
                     <h3>State of the art drone technology</h3>
-                    <p>Present your product, start up, or portfolio in a beautifully modern way. Turn your visitors in
-                        to clients.</p>
                     <ul class="features-stack">
                         <li class="feature-item">
                             <div class="feature-icon">
@@ -154,7 +136,7 @@
                             </div>
                             <div class="feature-content">
                                 <h5>Autonomous</h5>
-                                <p>Our drones are fully autonomous through GPS navigation and our patent-pending "Last Mile Navigation."</p>
+                                <p>Our drones are fully autonomous through GPS navigation and our patent-pending "Last Mile Navigation" technology</p>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -172,7 +154,16 @@
                             </div>
                             <div class="feature-content">
                                 <h5>Hydrogen Powered</h5>
-                                <p>We are working with Intelligent Energy to release the first hydrogen powered drone delivery fleet.</p>
+                                <p>We are working with Intelligent Energy to launch the first hydrogen powered drone delivery fleet.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon">
+                                <span data-icon="&#xe02b;" class="icon"></span>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Modular Payloads</h5>
+                                <p>A variety of user friendly payloads are compatible with our modular attachment system.</p>
                             </div>
                         </li>
                     </ul>
@@ -235,6 +226,21 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </div>
+</section>
+<section class="intro section-padding" id="news">
+    <div class="container">
+        <h3>News</h3>
+        <div class="row" style="height: 180px">
+            <div class="col-md-6">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Drones-Dash is gearing up for their prototype&#39;s demo video.. coming soon!</p>&mdash; Drones_Dash (@DronesDash) <a href="https://twitter.com/DronesDash/status/767140777252098048">August 20, 2016</a></blockquote>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Finally, less gasoline and more electricity. Let the revolution begin!<br> https://t.co/IM3yMhBPQf via <a href="https://twitter.com/Poynter">@poynter</a></p>&mdash; Drones_Dash (@DronesDash) <a href="https://twitter.com/DronesDash/status/767141049051418624">August 20, 2016</a></blockquote>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
