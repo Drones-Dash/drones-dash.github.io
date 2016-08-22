@@ -297,7 +297,7 @@ Navigation
 ========================================================================== */
 .header-nav.open {
   visibility: visible;
-  opacity: 0.9;
+  opacity: 1;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
@@ -414,7 +414,7 @@ header {
     header ul.primary-nav li {
       display: inline; }
       header ul.primary-nav li a {
-        color: #fff;
+        color: #000;
         padding-right: 25px; }
         header ul.primary-nav li a:hover {
           color: #FF5274; }
