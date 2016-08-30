@@ -59,7 +59,7 @@ h5 {
   text-transform: uppercase; }
 
 .btn:hover, .btn:focus {
-  color: #fff;
+  color: #fff !important;
   border-color: #FF5274;
   background-color: #FF5274; }
 
