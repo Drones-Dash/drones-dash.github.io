@@ -38,51 +38,17 @@
     your browser</a> to improve your expeence.</p>
 <![endif]-->
 <section class="hero">
-    <div id="video-player" style="position: fixed;
-        z-index: 0;
-        -webkit-user-select: none;
-        user-select: none;
-        width: 100%;
-        height: 100%;
-        -ms-transform: scale(1.5,1.5);
-      -webkit-transform: scale(1.5,1.5);
-      transform: scale(1.5,1.5);
-    pointer-events: none;"></div>
-    <div id="" style="position: absolute; width: 100%; height: 100%; pointer-events: none; background: rgba(255,255,255, 0.6);"></div>
 
-    </div>
-    <script>
-        var tag = document.createElement('script');
-        tag.src = "https://www.youtube.com/player_api";
-        var firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-        var player;
-        function onYouTubePlayerAPIReady() {
-            player = new YT.Player('video-player', {
-                playerVars: { 'autoplay': 1, 'controls': 0,'autohide':1,'wmode':'opaque', 'loop':1, 'rel':0, 'showinfo':0, 'playlist': '5m6oXJcg7aM'},
-                videoId: '5m6oXJcg7aM',
-                events: {
-                    'onReady': onPlayerReady}
-            });
-        }
-
-        function onPlayerReady(event) {
-            event.target.mute();
-        }
-    </script>
     <section class="navigation">
         <header>
             <div class="header-content">
-                <div class="logo"><a href="#"><img style="height: 120px;" src="img/logo.PNG" alt="Drones-Dash logo"></a></div>
+                <div class="logo"><a href="/"><img style="height: 120px;" src="img/logo.PNG" alt="Drones-Dash logo"></a></div>
                 <div class="header-nav">
                     <nav>
                         <ul class="primary-nav">
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#news">News</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">Partnerships</a></li>
+                            <li><a href="#">Team</a></li>
                             <li><a href="careers.html">Careers <i class="fa fa-external-link"></i></a></li>
                         </ul>
                     </nav>
@@ -96,37 +62,40 @@
 
     <div class="container">
 
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-
                 <div class="hero-content text-center">
-                    <h1><span id="hero-title-adj">Authenticated</span> Drone Delivery</h1>
-                    <script>
-                        WORDS = ["Authenticated", "Faster", "Autonomous", "Secure", "Accurate", "Smarter", "Safer"];
-                        queue = [];
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="header-content">
+                                <div class="header-content-inner" style="margin-top: 18%">
+                                    <h2 style="font-size: 48px">At DronesDash, we're making <br>drone delivery a reality.</h2>
+                                    <br>
+                                    <h4 style="font-size: 20px">We're partnering with various companies in the Silicon Valley</h4>
+                                    <h4 style="font-size: 20px">to deliver a wide variety of products.</h4>
+                                    <br>
+                                    <br>
+                                    <a href="#contact" class="btn btn-fill btn-large btn-margin-right">Partnerships</a>
+                                    <a href="https://www.youtube.com/watch?v=3bjsg7WiOkM" class="btn btn-accent btn-large">Demo Prototype</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="device-container">
+                                <div class="device-mockup iphone6_plus portrait white">
+                                    <div class="device">
+                                        <div class="screen">
+                                            <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                            <center>
+                                                <img src="img/phoneapp.png" class="img-responsive" width="80%" alt="">
+                                            </center>
+                                        </div>
 
-                        setInterval(function() {
-                            index = -1
-                            while (index == -1 || queue.indexOf(WORDS[index]) != -1)
-                                index = Math.floor(Math.random() * WORDS.length);
-                            queue.push(WORDS[index]);
-
-                            $("#hero-title-adj").fadeOut(function() {
-                                $(this).text(WORDS[index]).fadeIn();
-                            });
-
-                            if (queue.length == 4)
-                                    queue.splice(0, 1)
-
-                        }, 4000)
-                    </script>
-
-                    <p class="intro">Introducing Drones-Dash, a drone technology company offering sustainable delivery solutions.</p>
-                    <a href="#contact" class="btn btn-fill btn-large btn-margin-right">Partnerships</a> <a href="https://www.youtube.com/watch?v=3bjsg7WiOkM"
-                                                                                                    class="btn btn-accent btn-large">Demo Prototype</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+
     </div>
     <div class="down-arrow floating-arrow"><a href="#about"><i class="fa fa-angle-down"></i></a></div>
 </section>
@@ -200,61 +169,6 @@
         </div>
     </div>
 </section>
-<section  class="features-extra section-padding" id="team">
-    <div class="container" style="text-align: center;">
-        <div class="row">
-            <div class="col-md-12">
-                <h3>Our Team</h3>
-                <br>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <img style="margin: auto auto auto auto" src="img/chase.jpeg" class="founder-picture">
-                        <h5>Chase Traficanti</h5>
-                        <h6>CEO & Co-Founder</h6>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="img/john.jpeg" class="founder-picture">
-                        <h5>John Gotcher</h5>
-                        <h6>COO & Co-Founder</h6>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="img/ayush.png" class="founder-picture">
-                        <h5>Ayush Jain</h5>
-                        <h6>CTO & Co-Founder</h6>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="img/shivum.png" class="founder-picture">
-                        <h5>Shivum Agarwal</h5>
-                        <h6>CBO & Co-Founder</h6>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <h5>Nicholas Palomarez</h5>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Greg Lablanc</h5>
-                        <h6>Chair of Professional Faculty</h6>
-                        <h6>@Haas School of Business, UC Berkeley</h6>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Julian Hughes</h5>
-                        <h6>Commercial Director</h6>
-                        <h6>@Intelligent Energy</h6>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Joe Calder</h5>
-                        <h6>President of Strategic Partnerships</h6>
-                        <h6>@Google</h6>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
 <section class="intro section-padding" id="news">
     <div class="container">
         <div class="row">
@@ -279,10 +193,7 @@
                                             <i class="fa fa-envelope"></i><input placeholder="Enter your email" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                                         </div>
                                         <div class="mc-field-group form-input-group">
-                                            <i class="fa fa-user"></i><input placeholder="Enter your first name" type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                                        </div>
-                                        <div class="mc-field-group form-input-group">
-                                            <i class="fa fa-circle-o-notch"></i><input placeholder="Enter your first name" type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                                            <i class="fa fa-user"></i><input placeholder="Enter your name" type="text" value="" name="FNAME" class="" id="mce-FNAME">
                                         </div>
                                         <div id="mce-responses" class="clear">
                                             <div class="response" id="mce-error-response" style="display:none"></div>
@@ -347,7 +258,7 @@
                         <li><a href="#contact">Contact Us</a></li>
                         <li><a href="careers.html">Careers <i class="fa fa-external-link"></i></a></li>
                     </ul>
-                    <p>Copyright © 2016 <a href="#">Drones-Dash</a><br>
+                    <p>Copyright © 2016 <a href="#">DronesDash</a><br>
                 </div>
             </div>
             <div class="social-share">

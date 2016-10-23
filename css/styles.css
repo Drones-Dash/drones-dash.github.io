@@ -60,8 +60,8 @@ h5 {
 
 .btn:hover, .btn:focus {
   color: #fff !important;
-  border-color: #FF5274;
-  background-color: #FF5274; }
+  border-color: #2CBAF2;
+  background-color: #2CBAF2; }
 
 .btn-white {
   font-size: 13px;
@@ -71,21 +71,21 @@ h5 {
   border-color: #fff; }
 
 .btn-white:hover, .btn-white:focus {
-  color: #FF5274;
-  border-color: #FF5274; }
+  color: #2CBAF2;
+  border-color: #2CBAF2; }
 
 .btn-fill {
   color: #fff;
-  border: solid 2px #FF5274;
+  border: solid 2px #2CBAF2;
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #FF5274; }
+  background-color: #2CBAF2; }
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: #D7405D;
-  border-color: #D7405D; }
+  background-color: #14B3F0;
+  border-color: #14B3F0; }
 
 .btn-small {
   padding: 8px 40px; }
@@ -96,11 +96,17 @@ h5 {
 .btn-margin-right {
   margin-right: 20px; }
 
-section.features-extra,  section.sign-up {
+section.sign-up, section.features {
   background: #fff; }
 
-section.features, section.blog-intro, section.blog, section.intro {
+section.blog-intro, section.blog, section.features-extra {
   background: #F3F4F8; }
+
+
+section.intro {
+  background: url("http://www.knom.org/wp/wp-content/uploads/2015/03/2015-03-14-nome-glv-2015-01-017-2432px-1216x811.jpg") no-repeat center;
+  background-size: cover;
+}
 
 /* ==========================================================================
 Global Styles
@@ -117,7 +123,7 @@ Global Styles
   margin: 0; }
 
 a {
-  color: #FF5274;
+  color: #2CBAF2;
 
 }
 
@@ -376,7 +382,7 @@ Hero
     font-weight: 300;
     margin-bottom: 80px; }
   .hero .hero-content {
-    padding-top: 26%; }
+    padding-top: 13%; }
 
 .navigation {
   -webkit-transition: all 300ms ease-in-out;
@@ -417,7 +423,7 @@ header {
         color: #000;
         padding-right: 25px; }
         header ul.primary-nav li a:hover {
-          color: #FF5274; }
+          color: #2CBAF2; }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
   header ul.member-actions li {
@@ -425,7 +431,7 @@ header {
     header ul.member-actions li a {
       color: #fff; }
       header ul.member-actions li a:hover {
-        color: #FF5274; }
+        color: #2CBAF2; }
   header .header-nav {
     display: inline-block; }
   header .member-actions {
@@ -450,7 +456,7 @@ Intro
 ========================================================================== */
 .intro span.icon {
   font-size: 40px;
-  color: #FF5274;
+  color: #2CBAF2;
   font-weight: bold; }
 
 .intro-icon {
@@ -476,7 +482,7 @@ Features-stack
     margin: 0 0 20px 0; }
   .features span.icon {
     font-size: 35px;
-    color: #FF5274;
+    color: #2CBAF2;
     font-weight: bold; }
   .features .feature-icon {
     display: inline-block;
@@ -506,7 +512,7 @@ Features-stack
     border-bottom: none; }
   .features .ipad-wrap {
     width: 1006px;
-    height: 1002px;
+    height: 1036px;
     margin-left: 30%;
     margin-bottom: 20%;
     background: url("../img/drone3.png") no-repeat center center;
@@ -538,7 +544,7 @@ Features-stack
   z-index: 3; }
   .features-extra .btn {
     margin-top: 20px;
-    color: #FF5274;}
+    color: #2CBAF2;}
   .features-extra .macbook-wrap {
     position: absolute;
     width: 1506px;
@@ -694,7 +700,7 @@ Sign up form
   text-align: left;
   position: relative; }
   .sign-up .signup-form .form-input-group i {
-    color: #FF5274;
+    color: #2CBAF2;
     font-size: 14px; }
   .sign-up .signup-form .form-input-group i:after {
     content: "";
@@ -769,7 +775,7 @@ footer {
   footer a {
     color: #fff; }
   footer a:hover {
-    color: #FF5274; }
+    color: #2CBAF2; }
   footer ul.footer-group {
     border-top: solid 1px #4E566C;
     padding-top: 25px;
@@ -780,7 +786,7 @@ footer {
     font-size: 13px;
     text-transform: uppercase; }
   footer ul.footer-group li a:hover {
-    color: #FF5274; }
+    color: #2CBAF2; }
   footer ul.footer-group li {
     margin-right: 30px; }
   footer ul.footer-group li:last-child {
