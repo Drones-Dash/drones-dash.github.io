@@ -104,7 +104,8 @@ section.blog-intro, section.blog, section.features-extra {
 
 
 section.intro {
-  background: url("http://www.knom.org/wp/wp-content/uploads/2015/03/2015-03-14-nome-glv-2015-01-017-2432px-1216x811.jpg") no-repeat center;
+  z-index: 1000000;
+  background: url("../img/bghome.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -801,7 +802,7 @@ footer {
     right: 0;
     width: 40%;
     height: 100%;
-    padding: 142px 0 0 70px; }
+    padding: 40px 0 0 70px; }
     footer .social-share p {
       color: #fff;
       text-transform: uppercase;
@@ -868,7 +869,7 @@ footer {
     footer .social-share a i {
       margin-top: 20px; }
   footer .footer-links {
-    margin: 120px 0 120px 0; }
+    margin: 30px 0 0px 0; }
 
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
