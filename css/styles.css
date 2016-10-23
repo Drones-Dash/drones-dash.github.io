@@ -6,12 +6,18 @@ Typography
 ========================================================================== */
 .founder-picture {
   background: 50% 50% no-repeat; /* 50% 50% centers image in div */
-  width: 170px;
-  height: 170px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
-@media  {
-  
+
+
+.founder-group {
+  width: 100%;
+}
+.founder-name{
+  margin-bottom: 5px !important;
 }
 
 @media only screen and (max-width: 400px){
@@ -104,7 +110,6 @@ section.blog-intro, section.blog, section.features-extra {
 
 
 section.intro {
-  z-index: 1000000;
   background: url("../img/bghome.jpg") no-repeat center;
   background-size: cover;
 }
@@ -778,7 +783,6 @@ footer {
   footer a:hover {
     color: #2CBAF2; }
   footer ul.footer-group {
-    border-top: solid 1px #4E566C;
     padding-top: 25px;
     margin-bottom: 45px; }
   footer ul.footer-group li {
