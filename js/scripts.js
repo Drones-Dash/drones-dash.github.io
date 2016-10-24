@@ -1,5 +1,46 @@
 $(document).ready(function() {
 
+
+	$("#apptarget")
+		.animate({
+			"left": [ "28%", "swing" ],
+			"top": [ "48%", "swing" ]
+		},800)
+		.delay(300)
+		.animate({
+			"left": [ "45%", "swing" ],
+			"top": [ "82%", "swing" ]
+		},800)
+		.delay(300)
+		.animate({
+			"left": [ "59.7%", "swing" ],
+			"top": [ "65.5%", "swing" ]
+		},800, function () {
+			$(".apptargetpath").delay(500).queue(function () {
+				$(".apptargetpath").attr({
+					"fill": "#23DA72"
+				})
+			})
+		})
+
+
+		var count = 0
+		var pattern = [0,1,1,1,0,1,0,1]
+
+		setInterval(function(){
+			var value = pattern[count%8]
+			if(value == 1){
+				$(".flash").attr("fill", "#fff")
+			}else{
+				$(".flash").attr("fill", "#000")
+			}
+
+
+			count++
+		}, 200)
+
+
+
 	/***************** Waypoints ******************/
 
 	$('.wp1').waypoint(function() {
