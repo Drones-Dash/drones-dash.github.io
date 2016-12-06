@@ -1,311 +1,562 @@
-<!doctype html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang=""> <!--<![endif]-->
+<!DOCTYPE html>
+
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+
+
+<!-- Mirrored from themehats.com/themes/jango/home-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Feb 2016 11:29:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <meta charset="utf-8">
-    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>DronesDash</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="css/flexslider.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/queries.css">
-    <link rel="stylesheet" href="css/etline-font.css">
-    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <meta charset="utf-8" />
+        <title>DronesDash</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
+        <link href="assets/plugins/socicon/socicon.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/soc2/styles.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/bootstrap-social/bootstrap-social.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/animate/animate.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN: BASE PLUGINS  -->
+        <link href="assets/plugins/revo-slider/css/settings.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/revo-slider/css/layers.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/revo-slider/css/navigation.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/slider-for-bootstrap/css/slider.css" rel="stylesheet" type="text/css" />
+        <!-- END: BASE PLUGINS -->
+        <!-- BEGIN THEME STYLES -->
+        <link href="assets/base/css/plugins.css" rel="stylesheet" type="text/css" />
+        <link href="assets/base/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
+        <link href="assets/base/css/themes/default.css" rel="stylesheet" id="style_theme" type="text/css" />
+        <link href="assets/base/css/custom.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME STYLES -->
+        <link rel="shortcut icon" href="favicon.ico" /> </head>
 
-    <!-- meta tags -->
-    <meta property="og:image" content="https://dronesdash.github.io/img/logo@2x.PNG" />
-</head>
-<body id="top">
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your expeence.</p>
-<![endif]-->
-<section class="hero">
+        <style>
+            html *
+            {
+                font-family: "Roboto Condensed";
+            }
+        </style>
 
-    <section class="navigation">
-        <header>
-            <div class="header-content">
-                <div class="logo"><a href="/"><img style="height: 120px;" src="img/logo.PNG" alt="DronesDash logo"></a></div>
-                <div class="header-nav">
-                    <nav>
-                        <ul class="primary-nav">
-                            <li><a href="technology.html">Technology</a></li>
-                            <li><a href="partnerships.html">Partnerships</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="careers.html">Careers <i class="fa fa-external-link"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="navicon">
-                    <a class="nav-toggle" href="#"><span></span></a>
+    <body class="c-layout-header-fixed c-layout-header-mobile-fixed">
+        <!-- BEGIN: LAYOUT/HEADERS/HEADER-2 -->
+        <!-- BEGIN: HEADER -->
+        <header class="c-layout-header c-layout-header-4 c-layout-header-default-mobile" data-minimize-offset="80">
+            <div class="c-navbar">
+                <div class="container">
+                    <!-- BEGIN: BRAND -->
+                    <div class="c-navbar-wrapper clearfix">
+                        <div class="c-brand c-pull-left">
+                            <a href="index.html" class="c-logo">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo" style="width: 70px; margin-top: -10px">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo-inverse" style="width: 70px; margin-top: -10px">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-mobile-logo"> </a>
+                            <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
+                                <span class="c-line"></span>
+                                <span class="c-line"></span>
+                                <span class="c-line"></span>
+                            </button>
+                            <button class="c-topbar-toggler" type="button">
+                                <i class="fa fa-ellipsis-v"></i>
+                            </button>
+                            <button class="c-search-toggler" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+
+                        </div>
+                        <!-- END: BRAND -->
+                        <!-- BEGIN: QUICK SEARCH -->
+                        <form class="c-quick-search" action="#">
+                            <input type="text" name="query" placeholder="Type to search..." value="" class="form-control" autocomplete="off">
+                            <span class="c-theme-link">&times;</span>
+                        </form>
+                        <!-- END: QUICK SEARCH -->
+                        <!-- BEGIN: HOR NAV -->
+                        <!-- BEGIN: LAYOUT/HEADERS/MEGA-MENU -->
+                        <!-- BEGIN: MEGA MENU -->
+                        <!-- Dropdown menu toggle on mobile: c-toggler class can be applied to the link arrow or link itself depending on toggle mode -->
+                        <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold">
+                            <ul class="nav navbar-nav c-theme-nav">
+                                <li>
+                                    <a href="technology.html" class="c-link dropdown-toggle">Technology
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Partnerships
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="team.html" class="c-link dropdown-toggle">Team
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Careers
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li class="c-quick-sidebar-toggler-wrapper">
+                                    <a href="#" class="c-quick-sidebar-toggler">
+                                        <span class="c-line"></span>
+                                        <span class="c-line"></span>
+                                        <span class="c-line"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </header>
-    </section>
-
-    <div class="container">
-
-                <div class="hero-content text-center">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <div class="header-content">
-                                <div class="header-content-inner" style="margin-top: 15%">
-                                    <h2 style="font-size: 48px">At DronesDash, we're making <br>drone delivery a reality.</h2>
-                                    <br>
-                                    <h4 style="font-size: 20px">We're partnering with various companies in the Silicon Valley</h4>
-                                    <h4 style="font-size: 20px">to deliver a wide variety of products.</h4>
-                                    <br>
-                                    <br>
-                                    <a href="#contact" class="btn btn-fill btn-large btn-margin-right">Partnerships</a>
-                                    <a href="https://www.youtube.com/watch?v=3bjsg7WiOkM" class="btn btn-accent btn-large">Demo Prototype</a>
+        <!-- END: HEADER -->
+        <!-- BEGIN: PAGE CONTAINER -->
+        <div class="c-layout-page">
+            <!-- BEGIN: PAGE CONTENT -->
+            <!-- BEGIN: LAYOUT/SLIDERS/REVO-SLIDER-9 -->
+            <section class="c-layout-revo-slider c-layout-revo-slider-9">
+                <div class="tp-banner-container tp-fullscreen tp-fullscreen-mobile">
+                    <div class="tp-banner rev_slider" data-version="5.0">
+                        <ul>
+                            <!--BEGIN: SLIDE #1 -->
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
+                                <img alt="" src="assets/base/img/dronehome.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <!--BEGIN: MAIN TITLE -->
+                                <div class="tp-caption customin customout tp-resizeme" data-x="center" data-y="center" data-hoffset="[-350,-300, -100, -100]" data-voffset="-120" data-speed="500" data-start="1000" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;:s:500;e:Back.easeInOut;"
+                                data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:600;e:Back.easeInOut;" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                data-endspeed="600">
+                                    <h3 class="c-main-title c-font-44 c-font-bold c-font-uppercase c-font-white"> Drone Delivery
+                                        <br> is coming to California </h3>
                                 </div>
+                                <!--END -->
+                                <!--BEGIN: SUB TITLE -->
+                                <div class="tp-caption customin customout tp-resizeme" data-x="center" data-y="center" data-hoffset="[-394,-370, -170, -170]" data-voffset="15" data-speed="500" data-start="1500" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
+                                data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:600;e:Back.easeInOut;" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                data-endspeed="600">
+                                    <p class="c-sub-title c-font-24 c-font-white">
+                                        DronesDash is partnering with businesses
+                                        <br> across the Bay Area to deliver a
+                                        <br> variety of products.
+                                        <br> </p>
+                                </div>
+                                <!--END -->
+                                <!--BEGIN: ACTION BUTTON -->
+                                <div class="tp-caption randomrotateout tp-resizeme" data-x="center" data-y="center" data-hoffset="[-510,-470, -270, -270]" data-voffset="130" data-speed="500" data-start="2000" data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
+                                data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:600;e:Back.easeInOut;">
+                                    <a href="#features" class="c-action-btn btn btn-xlg c-btn-square c-btn-bold c-btn-border-2x c-btn-white c-btn-uppercase">Explore</a>
+                                </div>
+                                <!--END -->
+                            </li>
+                            <!--END -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- END: LAYOUT/SLIDERS/REVO-SLIDER-9 -->
+            <!-- BEGIN: CONTENT/FEATURES/FEATURES-9 -->
+            <div id="features" class="">
+                <div class="container">
+                    <div class="c-content-feature-9">
+                        <ul class="c-list">
+                            <li class="wow animate fadeInUp">
+                                <div class="c-card">
+                                    <i class="icon-rocket c-font-blue-1-5 c-font-22 c-bg-white c-float-left"></i>
+                                    <div class="c-content c-content-left">
+                                        <h3 class="c-theme-font c-font-uppercase c-font-bold">Quick</h3>
+                                        <p> We fly at speeds over 50mph in completely free airspace, making sure you get your package on time.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="wow animate fadeInUp">
+                                <div class="c-card">
+                                    <i class="icon-compass c-font-blue-1-5 c-font-27 c-bg-white c-float-left"></i>
+                                    <div class="c-content c-content-left">
+                                        <h3 class="c-theme-font c-font-uppercase c-font-bold">Autonomous</h3>
+                                        <p> Our drones are fully autonomous through GPS navigation and our patent-pending "Last Mile Navigation" technology </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="wow animate fadeInUp">
+                                <div class="c-card">
+                                    <i class="icon-lock c-font-blue-1-5 c-font-27 c-bg-white c-float-left"></i>
+                                    <div class="c-content c-content-left">
+                                        <h3 class="c-theme-font c-font-uppercase c-font-bold">Secure</h3>
+                                        <p> Our patent-pending visual targeting system authenticates users upon delivery, ensuring you never lose an order. </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- END: CONTENT/FEATURES/FEATURES-9 -->
+            <!-- BEGIN: CONTENT/MISC/ABOUT-3 -->
+            <div class="c-content-box c-size-md c-bg-grey-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 wow animate fadeInLeft">
+                            <!-- Begin: Title 1 component -->
+                            <div class="c-content-title-1">
+                                <h3 class="c-font-uppercase c-font-bold">Houston, We have Liftoff!</h3>
+                                <div class="c-line-left c-theme-bg"></div>
+                            </div>
+                            <!-- End-->
+                            <p>DronesDash is a Menlo Park based drone technology company focused on integrating drones into commercial delivery. Despite our infancy, we have already developed highly advanced patent pending tools and techniques for automated drone services. Through our optimized navigation system in unison with our state of the art visual targeting system, we will revolutionize package delivery.
+                            </p>
+                            <ul class="c-content-list-1 c-theme  c-font-uppercase">
+                                <li>Efficient</li>
+                                <li>Secure</li>
+                                <li>Revolutionary</li>
+                            </ul>
+                            <p>The era of drone technology is upon us and DronesDash is ready to guide the world toward this future!</p>
+                        </div>
+                        <div class="col-sm-6 wow animate fadeInRight">
+                            <img src="assets/base/img/teamhome.jpg" style="width: 100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: CONTENT/MISC/ABOUT-3 -->
+            <!-- BEGIN: CONTENT/SLIDERS/CLIENT-LOGOS-1 -->
+            <div class="c-content-box c-size-md c-bg-white">
+                <div class="container">
+                    <!-- Begin: Testimonals 1 component -->
+                    <div class="c-content-client-logos-slider-1" data-slider="owl" data-items="5" data-desktop-items="4" data-desktop-small-items="3" data-tablet-items="3" data-mobile-small-items="1" data-auto-play="5000">
+                        <!-- Begin: Title 1 component -->
+                        <div class="c-content-title-1">
+                            <h3 class="c-center c-font-uppercase c-font-bold">Our Clients</h3>
+                            <div class="c-line-center c-theme-bg"></div>
+                        </div>
+                        <!-- End-->
+                        <!-- Begin: Owlcarousel -->
+                        <div class="owl-carousel owl-theme c-theme">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo1.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo2.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo3.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo4.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo5.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo6.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo7.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo8.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo9.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo10.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/base/img/content/client-logos/logo11.jpg" alt="" />
+                                </a>
                             </div>
                         </div>
-                        <div class="col-sm-5">
-                            <div class="device-container">
-                                <div class="device-mockup iphone6_plus portrait white">
-                                    <div class="device">
-                                        <div class="screen">
-                                            <center>
-                                                <div class="container" style="width:100%">
-                                                    <img src="img/phoneapp.png" class="img-responsive" width="83%" alt="">
-                                                    <svg id="apptarget" class="img-responsive" style="width: 9%; position: absolute; z-index: 100; top:35%; left: 58%"xmlns="http://www.w3.org/2000/svg" version="1.0" width="626.000000pt" height="626.000000pt" viewBox="0 0 626.000000 626.000000" preserveAspectRatio="xMidYMid meet">
-                                                        <g transform="translate(0.000000,626.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                                                            <path class="apptargetpath" fill="#f72720" d="M175 6247 c-81 -31 -136 -87 -163 -166 -9 -25 -12 -276 -12 -950 l0 -916 24 -50 c80 -174 316 -195 428 -39 16 23 34 59 38 80 5 21 10 380 10 796 l0 757 783 3 c716 3 785 4 813 20 129 70 179 209 120 333 -28 60 -66 97 -126 124 -44 20 -60 21 -965 20 -679 0 -928 -4 -950 -12z"/>
-                                                            <path class="apptargetpath" fill="#f72720" d="M4174 6241 c-103 -47 -159 -138 -152 -247 7 -106 85 -202 184 -224 21 -5 377 -10 796 -10 l757 0 3 -782 c3 -852 -1 -792 61 -872 88 -111 277 -113 373 -4 68 77 65 24 62 1048 -3 892 -4 926 -22 964 -25 50 -72 97 -122 122 -38 18 -72 19 -969 21 -887 3 -932 2 -971 -16z"/>
-                                                            <path class="apptargetpath" fill="#f72720" d="M145 2217 c-60 -28 -106 -79 -129 -138 -15 -40 -16 -129 -14 -969 3 -892 4 -926 22 -964 25 -50 72 -97 122 -122 38 -18 72 -19 964 -22 834 -2 929 -1 968 14 93 35 152 112 160 211 8 106 -34 186 -127 241 l-46 27 -782 3 -783 3 0 757 c0 416 -5 775 -10 796 -12 55 -59 116 -115 151 -66 41 -158 46 -230 12z"/>
-                                                            <path class="apptargetpath" fill="#f72720" d="M5905 2216 c-52 -23 -92 -63 -123 -120 -16 -28 -17 -97 -20 -813 l-3 -782 -782 -3 c-861 -3 -799 1 -877 -65 -105 -88 -104 -276 2 -369 77 -68 24 -65 1048 -62 892 3 926 4 964 22 50 25 97 72 122 122 18 38 19 72 22 964 2 840 1 929 -14 969 -51 135 -208 198 -339 137z"/>
-                                                        </g>
-                                                    </svg>
-                                                    <svg style="position: absolute; top: 68.9%; left: 63.6%" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                                        <circle class="flash" fill="#fff" cx="0.8" cy="0.8" r="0.8"/>
-                                                    </svg>
-                                                </div>
-                                            </center>
-                                        </div>
-
+                        <!-- End-->
+                    </div>
+                    <!-- End-->
+                </div>
+            </div>
+            <!-- END: CONTENT/SLIDERS/CLIENT-LOGOS-1 -->
+            <!-- END: PAGE CONTENT -->
+        </div>
+        <!-- END: PAGE CONTAINER -->
+        <!-- BEGIN: CONTENT/MISC/SUBSCRIBE-FORM-1 -->
+        <div class="c-content-box c-size-sm c-bg-dark">
+            <div class="container">
+                <div class="c-content-subscribe-form-1">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h3 class="c-title c-font-30 c-font-uppercase c-font-bold">Subscribe to our newsletter</h3>
+                            <div class="c-body c-font-16 c-font-uppercase c-font-sbold">Get the latest updates on DronesDash</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <form action="#">
+                                <div class="input-group input-group-lg">
+                                    <input type="text" class="form-control input-lg" placeholder="Your Email Here">
+                                    <span class="input-group-btn">
+                                            <button type="submit" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">SUBSCRIBE</button>
+                                        </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END: CONTENT/MISC/SUBSCRIBE-FORM-1 -->
+        <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
+        <a name="footer"></a>
+        <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
+            <div class="container">
+                <div class="c-prefooter c-bg-white">
+                    <div class="c-head">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="c-left">
+                                    <div class="socicon">
+                                        <a href="https://www.facebook.com/DronesDash/" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-facebook tooltips" data-original-title="Facebook" data-container="body"></a>
+                                        <a href="https://twitter.com/DronesDash" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-twitter tooltips" data-original-title="Twitter" data-container="body"></a>
+                                        <a href="https://www.linkedin.com/company/10690368?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A2132484181469561093423%2CVSRPtargetId%3A10690368%2CVSRPcmpt%3Aprimary" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-linkedin tooltips" data-original-title="Linkedin" data-container="body"></a>
+                                        <a href="https://angel.co/drones-dash" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-angellist tooltips" data-original-title="Angellist" data-container="body"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="c-right">
+                                    <h3 class="c-title c-font-uppercase c-font-bold">Mobile App Coming Soon...</h3>
+                                    <div class="c-icons">
+                                        <a href="#" class="c-font-30 c-font-green-1 socicon-btn c-bg-grey-1-hover socicon-android tooltips" data-original-title="Android" data-container="body"></a>
+                                        <a href="#" class="c-font-30 c-font-grey-3 socicon-btn c-bg-grey-1-hover socicon-apple tooltips" data-original-title="Apple" data-container="body"></a>
+                                        <a href="#" class="c-font-30 c-font-blue-3 socicon-btn c-bg-grey-1-hover socicon-windows tooltips" data-original-title="Windows" data-container="body"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-    </div>
-    <div class="down-arrow floating-arrow"><a href="#about"><i class="fa fa-angle-down"></i></a></div>
-</section>
-<section class="features-extra section-padding" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="feature-list">
-                    <h3>Houston, We Have Liftoff!</h3>
-                    <p>DronesDash is a pre-seed drone technology company focused on integrating commercial drones to enhance common aspects of life. Despite our infancy, we have already developed highly advanced patent pending tools and techniques for automated drone services. By using our advanced navigation system in unison with our state of the art visual targeting system, we will revolutionize package delivery. The era of drone technology is upon us and DronesDash is ready to guide the world toward this future!</p>
-                    <a href="https://www.youtube.com/watch?v=3bjsg7WiOkM" class="btn btn-ghost btn-accent btn-small">Demo Prototype</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="macbook-wrap wp3"></div>
-</section>
-<section class="features section-padding" id="features">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 col-md-offset-7">
-                <div class="feature-list">
-                    <h3>State of the art drone technology</h3>
-                    <ul class="features-stack">
-                        <li class="feature-item">
-                            <div class="feature-icon">
-                                <span data-icon="&#xe048;" class="icon"></span>
+                    <div class="c-line"></div>
+                    <div class="c-body">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <ul class="c-links c-theme-ul">
+                                    <li>
+                                        <a href="#">About DronesDash</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Delivery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Careers</a>
+                                    </li>
+                                </ul>
+                                <ul class="c-links c-theme-ul">
+                                    <li>
+                                        <a href="#">Technology</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Partnerships</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#features">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="team.html">Team</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="feature-content">
-                                <h5>Autonomous</h5>
-                                <p>Our drones are fully autonomous through GPS navigation and our patent-pending "Last Mile Navigation" technology</p>
+                            <div class="col-md-5 col-sm-6 col-xs-12">
+                                <div class="c-content-title-1 c-title-md">
+                                    <h3 class="c-title c-font-uppercase c-font-bold">Latest Tweets</h3>
+                                    <div class="c-line-left hide"></div>
+                                </div>
+                                <div class="c-twitter">
+                                    <a class="twitter-timeline" data-height="400" href="https://twitter.com/DronesDash">Tweets by DronesDash</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </div>
                             </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="feature-icon">
-                                <span data-icon="&#xe020;" class="icon"></span>
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <div class="c-content-title-1 c-title-md">
+                                    <h3 class="c-title c-font-uppercase c-font-bold">Contact Us</h3>
+                                    <div class="c-line-left hide"></div>
+                                </div>
+                                <p class="c-address c-font-16"> 68 Willow Rd, Menlo Park,
+                                    <br/> California 95014, US
+                                    <br/> Phone: (###)-###-###
+                                    <br/> Email:
+                                    <a href="mailto:info@jango.com">
+                                        <span class="c-theme-color">chase@dronesdash.com</span>
+                                    </a>
+                                    <br/> Skype:
+                                    <a href="#">
+                                        <span class="c-theme-color">DronesDash</span>
+                                    </a>
+                                </p>
                             </div>
-                            <div class="feature-content">
-                                <h5>Secure</h5>
-                                <p>Our patent-pending visual targeting system authenticates users upon delivery.</p>
-                            </div>
-                        </li>
-                        <!--
-                        <li class="feature-item">
-                            <div class="feature-icon">
-                                <span data-icon="&#xe046;" class="icon"></span>
-                            </div>
-                            <div class="feature-content">
-                                <h5>Hydrogen Powered</h5>
-                                <p>We are working with Intelligent Energy to launch the first hydrogen powered drone delivery fleet.</p>
-                            </div>
-                        </li>
-                        -->
-                        <li class="feature-item">
-                            <div class="feature-icon">
-                                <span data-icon="&#xe02b;" class="icon"></span>
-                            </div>
-                            <div class="feature-content">
-                                <h5>Modular Payloads</h5>
-                                <p>A variety of user friendly payloads are compatible with our modular attachment system.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="device-showcase">
-        <div class="devices">
-            <div class="ipad-wrap wp1"></div>
-        </div>
-    </div>
-</section>
-<section class="intro features-extra section-padding" id="news">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6" id="twitter-news">
-                <a class="twitter-timeline"  href="https://twitter.com/search?q=%40DronesDash" data-widget-id="767163542847918080">Tweets about @DronesDash</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-            <div class="col-md-6">
-                <section class="sign-up text-center" style="padding: 50px; border-radius: 4px" id="download">
-
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-
-
-                            <!-- Begin MailChimp Signup Form -->
-                            <div id="mc_embed_signup">
-                                <form action="//dronesdash.us13.list-manage.com/subscribe/post?u=846fb9b44e8c964ca6e6c5529&amp;id=89769e564a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
-                                    <div id="mc_embed_signup_scroll">
-                                        <h3>Subscribe to our Newsletter</h3>
-                                        <h4>Get the latest updates on DronesDash</h4><br>
-                                        <div class="mc-field-group form-input-group">
-                                            <i class="fa fa-envelope"></i><input placeholder="Enter your email" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                        </div>
-                                        <div class="mc-field-group form-input-group">
-                                            <i class="fa fa-user"></i><input placeholder="Enter your name" type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                                        </div>
-                                        <div id="mce-responses" class="clear">
-                                            <div class="response" id="mce-error-response" style="display:none"></div>
-                                            <div class="response" id="mce-success-response" style="display:none"></div>
-                                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_846fb9b44e8c964ca6e6c5529_89769e564a" tabindex="-1" value=""></div>
-                                        <div class="clear">
-                                            <button type="submit" class="btn-fill sign-up-btn" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>                            <!--End mc_embed_signup-->
                         </div>
                     </div>
-                </section>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="sign-up section-padding text-center" style="z-index: 3;" id="contact">
-    <div class="container" style="z-index: 3;">
-    <div class="row" style="z-index: 3;">
-        <div class="col-md-8 col-md-offset-2">
-            <h3>Contact Us</h3>
-            <form class="signup-form" action="#" method="POST" role="form">
-                <div class="form-input-group">
-                    <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter your email" required="">
-                </div>
-                <div class="form-input-group">
-                    <i class="fa fa-user"></i><input type="text" class="" placeholder="Enter your name" required="">
-                </div>
-                <div class="form-input-group" style="height:200px !important; text-wrap: normal; padding-top: 15px !important;">
-                    <i class="fa fa-file-text" style="top: 15%"></i><textarea type="text" class="" placeholder="Enter your message" required="" style="resize: none"></textarea>
-                </div>
-                <button type="submit" class="btn-fill sign-up-btn">Submit</button>
-
-            </form>
-        </div>
-    </div>
-    </div>
-</section>
-<section class="to-top features-extra">
-    <div class="container">
-        <div class="row">
-            <div class="to-top-wrap">
-                <a href="#top" class="top"><i class="fa fa-angle-up"></i></a>
-            </div>
-        </div>
-    </div>
-</section>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7">
-                <div class="footer-links">
-                    <ul class="footer-group">
-                        <li><a href="technology.html">Technology</a></li>
-                        <li><a href="partnerships.html">Partnerships</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="careers.html">Careers <i class="fa fa-external-link"></i></a></li>
-                    </ul>
-                    <p>Copyright © 2016 <a href="#">DronesDash</a><br>
                 </div>
             </div>
-            <div class="social-share">
-                <p>Visit our social media</p>
-                <a href="https://www.facebook.com/DronesDash/" class="facebook-share"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/10690368?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A2132484181469561093423%2CVSRPtargetId%3A10690368%2CVSRPcmpt%3Aprimary" class="linkedin-share"><i class="fa fa-linkedin"></i></a>
-                <a href="https://angel.co/drones-dash" class="angellist-share"><i class="fa fa-angellist"></i></a>
-                <a href="https://instagram.com/dronesdash" class="instagram-share"><i class="fa fa-instagram"></i></a>
-                <a href="https://twitter.com/DronesDash" class="twitter-share"><i class="fa fa-twitter"></i></a>
+            <div class="c-postfooter c-bg-dark-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 c-col">
+                            <p class="c-copyright c-font-grey">2016 &copy; DronesDash
+                                <span class="c-font-grey-3">All Rights Reserved.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </footer>
+        <!-- END: LAYOUT/FOOTERS/FOOTER-6 -->
+        <!-- END: LAYOUT/FOOTERS/FOOTER-7 -->
+        <!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
+        <div class="c-layout-go2top">
+            <i class="icon-arrow-up"></i>
         </div>
-    </div>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<script src="bower_components/retina.js/dist/retina.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="bower_components/classie/classie.js"></script>
-<script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-    (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-                function () {
-                    (b[l].q = b[l].q || []).push(arguments)
+        <!-- END: LAYOUT/FOOTERS/GO2TOP -->
+        <!-- BEGIN: LAYOUT/BASE/BOTTOM -->
+        <!-- BEGIN: CORE PLUGINS -->
+        <!--[if lt IE 9]>
+	<script src="../assets/global/plugins/excanvas.min.js"></script>
+	<![endif]-->
+        <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/reveal-animate/wow.js" type="text/javascript"></script>
+        <script src="assets/base/js/scripts/reveal-animate/reveal-animate.js" type="text/javascript"></script>
+        <!-- END: CORE PLUGINS -->
+        <!-- BEGIN: LAYOUT PLUGINS -->
+        <script src="assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <script src="assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js" type="text/javascript"></script>
+        <!-- END: LAYOUT PLUGINS -->
+        <!-- BEGIN: THEME SCRIPTS -->
+        <script src="assets/base/js/components.js" type="text/javascript"></script>
+        <script src="assets/base/js/components-shop.js" type="text/javascript"></script>
+        <script src="assets/base/js/app.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function()
+            {
+                App.init(); // init core
+            });
+        </script>
+        <!-- END: THEME SCRIPTS -->
+        <!-- BEGIN: PAGE SCRIPTS -->
+        <script>
+            $(document).ready(function()
+            {
+                var slider = $('.c-layout-revo-slider .tp-banner');
+                var cont = $('.c-layout-revo-slider .tp-banner-container');
+                var api = slider.show().revolution(
+                {
+                    sliderType: "standard",
+                    sliderLayout: "fullscreen",
+                    responsiveLevels: [2048, 1024, 778, 320],
+                    gridwidth: [1240, 1024, 778, 320],
+                    gridheight: [868, 768, 960, 720],
+                    delay: 15000,
+                    startwidth: 1170,
+                    startheight: App.getViewPort().height,
+                    navigationType: "hide",
+                    navigationArrows: "solo",
+                    touchenabled: "on",
+                    navigation:
+                    {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        onHoverStop: "on",
+                        bullets:
+                        {
+                            style: "round",
+                            enable: true,
+                            hide_onmobile: false,
+                            hide_onleave: true,
+                            hide_delay: 200,
+                            hide_delay_mobile: 1200,
+                            hide_under: 0,
+                            hide_over: 9999,
+                            direction: "horizontal",
+                            h_align: "right",
+                            v_align: "bottom",
+                            space: 5,
+                            h_offset: 60,
+                            v_offset: 60,
+                        },
+                    },
+                    spinner: "spinner2",
+                    fullScreenOffsetContainer: '.c-layout-header',
+                    shadow: 0,
+                    hideTimerBar: "on",
+                    hideThumbsOnMobile: "on",
+                    hideNavDelayOnMobile: 1500,
+                    hideBulletsOnMobile: "on",
+                    hideArrowsOnMobile: "on",
+                    hideThumbsUnderResolution: 0
                 });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X', 'auto');
-    ga('send', 'pageview');
+            }); //ready
+        </script>
+        <!-- END: PAGE SCRIPTS -->
+        <!-- END: LAYOUT/BASE/BOTTOM -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-64667612-1', 'themehats.com');
+  ga('send', 'pageview');
 </script>
 </body>
+
+
+
+<!-- Mirrored from themehats.com/themes/jango/home-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Feb 2016 11:31:12 GMT -->
 </html>
